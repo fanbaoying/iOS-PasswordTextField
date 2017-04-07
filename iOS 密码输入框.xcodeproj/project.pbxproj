@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B690E0F71C9FD4C0007D00E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E0F61C9FD4C0007D00E1 /* main.m */; };
+		B690E0FA1C9FD4C0007D00E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E0F91C9FD4C0007D00E1 /* AppDelegate.m */; };
+		B690E0FD1C9FD4C0007D00E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E0FC1C9FD4C0007D00E1 /* ViewController.m */; };
+		B690E1001C9FD4C0007D00E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B690E0FE1C9FD4C0007D00E1 /* Main.storyboard */; };
+		B690E1021C9FD4C0007D00E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B690E1011C9FD4C0007D00E1 /* Assets.xcassets */; };
+		B690E1051C9FD4C0007D00E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B690E1031C9FD4C0007D00E1 /* LaunchScreen.storyboard */; };
+		B690E1101C9FD4C0007D00E1 /* iOS______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E10F1C9FD4C0007D00E1 /* iOS______Tests.m */; };
+		B690E11B1C9FD4C0007D00E1 /* iOS______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E11A1C9FD4C0007D00E1 /* iOS______UITests.m */; };
+		B690E12F1C9FD59E007D00E1 /* TXSecretaryField.m in Sources */ = {isa = PBXBuildFile; fileRef = B690E12A1C9FD59E007D00E1 /* TXSecretaryField.m */; };
+		B690E1301C9FD59E007D00E1 /* member_center_key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B690E12B1C9FD59E007D00E1 /* member_center_key@2x.png */; };
+		B690E1311C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B690E12C1C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png */; };
+		B690E1321C9FD59E007D00E1 /* member_center_key_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B690E12D1C9FD59E007D00E1 /* member_center_key_selected@2x.png */; };
+		B690E1331C9FD59E007D00E1 /* Noaccess_Point_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B690E12E1C9FD59E007D00E1 /* Noaccess_Point_ic@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B690E10C1C9FD4C0007D00E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B690E0EA1C9FD4BF007D00E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B690E0F11C9FD4C0007D00E1;
+			remoteInfo = "iOS 密码输入框";
+		};
+		B690E1171C9FD4C0007D00E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B690E0EA1C9FD4BF007D00E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B690E0F11C9FD4C0007D00E1;
+			remoteInfo = "iOS 密码输入框";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B690E0F21C9FD4C0007D00E1 /* iOS 密码输入框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 密码输入框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B690E0F61C9FD4C0007D00E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B690E0F81C9FD4C0007D00E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B690E0F91C9FD4C0007D00E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B690E0FB1C9FD4C0007D00E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B690E0FC1C9FD4C0007D00E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B690E0FF1C9FD4C0007D00E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B690E1011C9FD4C0007D00E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B690E1041C9FD4C0007D00E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B690E1061C9FD4C0007D00E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B690E10B1C9FD4C0007D00E1 /* iOS 密码输入框Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 密码输入框Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B690E10F1C9FD4C0007D00E1 /* iOS______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS______Tests.m"; sourceTree = "<group>"; };
+		B690E1111C9FD4C0007D00E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B690E1161C9FD4C0007D00E1 /* iOS 密码输入框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 密码输入框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B690E11A1C9FD4C0007D00E1 /* iOS______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS______UITests.m"; sourceTree = "<group>"; };
+		B690E11C1C9FD4C0007D00E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B690E1291C9FD59E007D00E1 /* TXSecretaryField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSecretaryField.h; sourceTree = "<group>"; };
+		B690E12A1C9FD59E007D00E1 /* TXSecretaryField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSecretaryField.m; sourceTree = "<group>"; };
+		B690E12B1C9FD59E007D00E1 /* member_center_key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "member_center_key@2x.png"; sourceTree = "<group>"; };
+		B690E12C1C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "member_center_key_secrentary_dot@2x.png"; sourceTree = "<group>"; };
+		B690E12D1C9FD59E007D00E1 /* member_center_key_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "member_center_key_selected@2x.png"; sourceTree = "<group>"; };
+		B690E12E1C9FD59E007D00E1 /* Noaccess_Point_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Noaccess_Point_ic@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B690E0EF1C9FD4C0007D00E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B690E1081C9FD4C0007D00E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B690E1131C9FD4C0007D00E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B690E0E91C9FD4BF007D00E1 = {
+			isa = PBXGroup;
+			children = (
+				B690E0F41C9FD4C0007D00E1 /* iOS 密码输入框 */,
+				B690E10E1C9FD4C0007D00E1 /* iOS 密码输入框Tests */,
+				B690E1191C9FD4C0007D00E1 /* iOS 密码输入框UITests */,
+				B690E0F31C9FD4C0007D00E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B690E0F31C9FD4C0007D00E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B690E0F21C9FD4C0007D00E1 /* iOS 密码输入框.app */,
+				B690E10B1C9FD4C0007D00E1 /* iOS 密码输入框Tests.xctest */,
+				B690E1161C9FD4C0007D00E1 /* iOS 密码输入框UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B690E0F41C9FD4C0007D00E1 /* iOS 密码输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				B690E0F81C9FD4C0007D00E1 /* AppDelegate.h */,
+				B690E0F91C9FD4C0007D00E1 /* AppDelegate.m */,
+				B690E0FB1C9FD4C0007D00E1 /* ViewController.h */,
+				B690E0FC1C9FD4C0007D00E1 /* ViewController.m */,
+				B690E1281C9FD59E007D00E1 /* BYSecretaryField */,
+				B690E0FE1C9FD4C0007D00E1 /* Main.storyboard */,
+				B690E1011C9FD4C0007D00E1 /* Assets.xcassets */,
+				B690E1031C9FD4C0007D00E1 /* LaunchScreen.storyboard */,
+				B690E1061C9FD4C0007D00E1 /* Info.plist */,
+				B690E0F51C9FD4C0007D00E1 /* Supporting Files */,
+			);
+			path = "iOS 密码输入框";
+			sourceTree = "<group>";
+		};
+		B690E0F51C9FD4C0007D00E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B690E0F61C9FD4C0007D00E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B690E10E1C9FD4C0007D00E1 /* iOS 密码输入框Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B690E10F1C9FD4C0007D00E1 /* iOS______Tests.m */,
+				B690E1111C9FD4C0007D00E1 /* Info.plist */,
+			);
+			path = "iOS 密码输入框Tests";
+			sourceTree = "<group>";
+		};
+		B690E1191C9FD4C0007D00E1 /* iOS 密码输入框UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B690E11A1C9FD4C0007D00E1 /* iOS______UITests.m */,
+				B690E11C1C9FD4C0007D00E1 /* Info.plist */,
+			);
+			path = "iOS 密码输入框UITests";
+			sourceTree = "<group>";
+		};
+		B690E1281C9FD59E007D00E1 /* BYSecretaryField */ = {
+			isa = PBXGroup;
+			children = (
+				B690E1291C9FD59E007D00E1 /* TXSecretaryField.h */,
+				B690E12A1C9FD59E007D00E1 /* TXSecretaryField.m */,
+				B690E12B1C9FD59E007D00E1 /* member_center_key@2x.png */,
+				B690E12C1C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png */,
+				B690E12D1C9FD59E007D00E1 /* member_center_key_selected@2x.png */,
+				B690E12E1C9FD59E007D00E1 /* Noaccess_Point_ic@2x.png */,
+			);
+			path = BYSecretaryField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B690E0F11C9FD4C0007D00E1 /* iOS 密码输入框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B690E11F1C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框" */;
+			buildPhases = (
+				B690E0EE1C9FD4C0007D00E1 /* Sources */,
+				B690E0EF1C9FD4C0007D00E1 /* Frameworks */,
+				B690E0F01C9FD4C0007D00E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS 密码输入框";
+			productName = "iOS 密码输入框";
+			productReference = B690E0F21C9FD4C0007D00E1 /* iOS 密码输入框.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B690E10A1C9FD4C0007D00E1 /* iOS 密码输入框Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B690E1221C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框Tests" */;
+			buildPhases = (
+				B690E1071C9FD4C0007D00E1 /* Sources */,
+				B690E1081C9FD4C0007D00E1 /* Frameworks */,
+				B690E1091C9FD4C0007D00E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B690E10D1C9FD4C0007D00E1 /* PBXTargetDependency */,
+			);
+			name = "iOS 密码输入框Tests";
+			productName = "iOS 密码输入框Tests";
+			productReference = B690E10B1C9FD4C0007D00E1 /* iOS 密码输入框Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B690E1151C9FD4C0007D00E1 /* iOS 密码输入框UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B690E1251C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框UITests" */;
+			buildPhases = (
+				B690E1121C9FD4C0007D00E1 /* Sources */,
+				B690E1131C9FD4C0007D00E1 /* Frameworks */,
+				B690E1141C9FD4C0007D00E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B690E1181C9FD4C0007D00E1 /* PBXTargetDependency */,
+			);
+			name = "iOS 密码输入框UITests";
+			productName = "iOS 密码输入框UITests";
+			productReference = B690E1161C9FD4C0007D00E1 /* iOS 密码输入框UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B690E0EA1C9FD4BF007D00E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tianXin;
+				TargetAttributes = {
+					B690E0F11C9FD4C0007D00E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NSP28TH28W;
+					};
+					B690E10A1C9FD4C0007D00E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NSP28TH28W;
+						TestTargetID = B690E0F11C9FD4C0007D00E1;
+					};
+					B690E1151C9FD4C0007D00E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NSP28TH28W;
+						TestTargetID = B690E0F11C9FD4C0007D00E1;
+					};
+				};
+			};
+			buildConfigurationList = B690E0ED1C9FD4BF007D00E1 /* Build configuration list for PBXProject "iOS 密码输入框" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B690E0E91C9FD4BF007D00E1;
+			productRefGroup = B690E0F31C9FD4C0007D00E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B690E0F11C9FD4C0007D00E1 /* iOS 密码输入框 */,
+				B690E10A1C9FD4C0007D00E1 /* iOS 密码输入框Tests */,
+				B690E1151C9FD4C0007D00E1 /* iOS 密码输入框UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B690E0F01C9FD4C0007D00E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B690E1321C9FD59E007D00E1 /* member_center_key_selected@2x.png in Resources */,
+				B690E1051C9FD4C0007D00E1 /* LaunchScreen.storyboard in Resources */,
+				B690E1301C9FD59E007D00E1 /* member_center_key@2x.png in Resources */,
+				B690E1311C9FD59E007D00E1 /* member_center_key_secrentary_dot@2x.png in Resources */,
+				B690E1021C9FD4C0007D00E1 /* Assets.xcassets in Resources */,
+				B690E1001C9FD4C0007D00E1 /* Main.storyboard in Resources */,
+				B690E1331C9FD59E007D00E1 /* Noaccess_Point_ic@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B690E1091C9FD4C0007D00E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B690E1141C9FD4C0007D00E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B690E0EE1C9FD4C0007D00E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B690E0FD1C9FD4C0007D00E1 /* ViewController.m in Sources */,
+				B690E0FA1C9FD4C0007D00E1 /* AppDelegate.m in Sources */,
+				B690E12F1C9FD59E007D00E1 /* TXSecretaryField.m in Sources */,
+				B690E0F71C9FD4C0007D00E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B690E1071C9FD4C0007D00E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B690E1101C9FD4C0007D00E1 /* iOS______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B690E1121C9FD4C0007D00E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B690E11B1C9FD4C0007D00E1 /* iOS______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B690E10D1C9FD4C0007D00E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B690E0F11C9FD4C0007D00E1 /* iOS 密码输入框 */;
+			targetProxy = B690E10C1C9FD4C0007D00E1 /* PBXContainerItemProxy */;
+		};
+		B690E1181C9FD4C0007D00E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B690E0F11C9FD4C0007D00E1 /* iOS 密码输入框 */;
+			targetProxy = B690E1171C9FD4C0007D00E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B690E0FE1C9FD4C0007D00E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B690E0FF1C9FD4C0007D00E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B690E1031C9FD4C0007D00E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B690E1041C9FD4C0007D00E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B690E11D1C9FD4C0007D00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B690E11E1C9FD4C0007D00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B690E1201C9FD4C0007D00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 密码输入框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B690E1211C9FD4C0007D00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 密码输入框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B690E1231C9FD4C0007D00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS 密码输入框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 密码输入框.app/iOS 密码输入框";
+			};
+			name = Debug;
+		};
+		B690E1241C9FD4C0007D00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS 密码输入框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 密码输入框.app/iOS 密码输入框";
+			};
+			name = Release;
+		};
+		B690E1261C9FD4C0007D00E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS 密码输入框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS 密码输入框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B690E1271C9FD4C0007D00E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS 密码输入框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS 密码输入框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B690E0ED1C9FD4BF007D00E1 /* Build configuration list for PBXProject "iOS 密码输入框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B690E11D1C9FD4C0007D00E1 /* Debug */,
+				B690E11E1C9FD4C0007D00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B690E11F1C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B690E1201C9FD4C0007D00E1 /* Debug */,
+				B690E1211C9FD4C0007D00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B690E1221C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B690E1231C9FD4C0007D00E1 /* Debug */,
+				B690E1241C9FD4C0007D00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B690E1251C9FD4C0007D00E1 /* Build configuration list for PBXNativeTarget "iOS 密码输入框UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B690E1261C9FD4C0007D00E1 /* Debug */,
+				B690E1271C9FD4C0007D00E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B690E0EA1C9FD4BF007D00E1 /* Project object */;
+}
